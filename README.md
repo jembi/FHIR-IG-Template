@@ -85,7 +85,7 @@ hapi:
       some_ig_1_0_0: #A unique name that you will identify for the IG object. Recommend IgName_IGVersion
         installMode: STORE_AND_INSTALL #Need this to ensure that the IG is installed
         name: some.ig.package.r4
-        version: 1.0.0
+        version: 1.0.0 # the version of the IG
         packageUrl: https://build.fhir.org/ig/usernameOrOrganization/gitHubRepoName/branches/master/package.r4.tgz #an example package
 ```
 ### Start HAPI FHIR and Deploying a FHIR® IG:
